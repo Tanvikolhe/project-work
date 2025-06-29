@@ -1,0 +1,83 @@
+.img-responsive{
+    max-width: 100%;
+}
+.hero_image{
+    background: url(crop-plate-with-salad_23-2147753678.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero_wrapper{
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-style:normal;
+}
+
+.hero_wrapper h1{
+    font-size:xx-large;
+    text-align: center;
+}
+
+.hero_wrapper span{
+margin-left: 5rem;
+display: inline-block;
+margin-bottom: 1rem;
+}
+.form_code{
+    text-align: center;
+}
+
+.form_code .post_code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+
+.form_code button{
+    width: 40;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:cornflowerblue;
+    color: beige;
+    padding: .6rem;
+    border: none;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}
+
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_item{
+    float: left;
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.product_item:first-of-type{
+    margin-left: 0;
+}
+
+@media screen and (max-width:700px){
+    .product_item{
+        width: 100%;
+        float: none;
+    }
+}
